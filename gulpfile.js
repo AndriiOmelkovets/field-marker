@@ -52,12 +52,11 @@ gulp.task('html', function () {
     .pipe(connect.reload());
 });
 
-gulp.task('watch', ['js', 'css', 'html', 'vendorjs', 'vendorcss'], function () {
+gulp.task('watch', ['js', 'css', 'html'], function () {
   gulp.watch('app/js/**/*.js', ['js']);
   gulp.watch('app/css/*.css', ['css']);
   gulp.watch('index.html', ['html']);
-  gulp.watch('app/js/vendor.js', ['vendorjs']);
-  gulp.watch('node_modules/angular-material/angular-material.css', ['vendorcss']);
+
 });
 
-gulp.task('default', ['connect', 'js', 'css', 'html', 'vendorjs', 'vendorcss', 'watch']);
+gulp.task('default', ['connect', 'js', 'css', 'html', 'watch']);
