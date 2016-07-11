@@ -1,0 +1,59 @@
+﻿.wrap-content {
+    height: 100%;
+}
+
+.wrap-img {
+    outline: none;
+    position: relative;
+}
+
+    .wrap-img img {
+        width: 100%;
+    }
+
+
+.my-marker {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: red;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.marker {
+    width: 300px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+    .marker .popup {
+        z-index: 1;
+        position: relative;
+        background: white;
+    }
+
+    .marker .wrap-button {
+        width: 100%;
+        text-align: right;
+    }
+
+    .marker .comment-list {
+        width: 100%;
+        padding: 5px 15px 0;
+        box-sizing: border-box;
+    }
+
+        .marker .comment-list .description {
+            word-break: break-all;
+        }
+
+    .marker .input-container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .marker .submit-form {
+        width: 284px;
+    }

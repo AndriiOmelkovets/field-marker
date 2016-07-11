@@ -1,0 +1,27 @@
+{
+  "name": "desmark",
+  "version": "1.0.0",
+  "description": "TZ desmark",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrii",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-animate": "^1.4.8",
+    "angular-aria": "^1.4.8",
+    "angular-material": "^1.1.0-rc.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.11",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^4.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.4"
+  }
+} 
